@@ -1,0 +1,34 @@
+{
+  "name": "user-authentication-task",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Gulshan kumar",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-flash": "^0.1.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "init": "^0.1.2",
+    "jsonwebtoken": "^8.5.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.13.8",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^6.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gulshan1511/POST-IT-.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gulshan1511/POST-IT-/issues"
+  },
+  "homepage": "https://github.com/gulshan1511/POST-IT-#readme",
+  "description": ""
+}
